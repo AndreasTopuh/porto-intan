@@ -72,8 +72,10 @@ const Home = () => {
         <h2 className="skills__subtitle">Personal Skills</h2>
         <Fade bottom>
             <p className="skills__text">Dengan keterampilan <strong>manajemen waktu</strong>, <strong>kerja sama</strong>, dan <strong>tanggung jawab</strong>, saya dapat <strong>mengatur jadwal dengan efisien</strong>, <strong>bekerja sama dalam tim</strong>, dan memberikan hasil terbaik. Kemampuan <strong>mudah beradaptasi</strong> memungkinkan saya <strong>cepat belajar dan menghadapi perubahan</strong>. Sifat <strong>pelayanan</strong> saya menciptakan <strong>lingkungan kerja positif</strong>, dan <strong>pengetahuan teknologi</strong> saya dapat meningkatkan efisiensi tugas.</p>
-        </Fade>
-<h2 className="skills__subtitle">Profesional Skills</h2>
+        </Fade >
+        <h2 className="skills__subtitle">Profesional Skills</h2>
+      
+        <Fade bottom>
         <div className="skills__data">
           <div className="skills__names">
             <i className="bx bxl-html5 skills__icon" />
@@ -118,6 +120,9 @@ const Home = () => {
             <span className="skills__percentage">85%</span>
           </div>
         </div>
+        </Fade>
+
+
       </div>
         {/* </Fade>        */}
 
